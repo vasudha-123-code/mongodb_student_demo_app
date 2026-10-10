@@ -7,7 +7,7 @@ st.set_page_config(page_title='MongoDB Student Demo', page_icon='🎓', layout='
 # -----------------------------
 # MongoDB Connection
 # -----------------------------
-MONGO_URI = st.secrets["MONGO_URI = "mongodb+srv://vasudha22bsd7010_db_user:WoqH7Cg5y6pctVxk@mongostudentlab.lqk91g7.mongodb.net/your_database_name?appName=MONGOSTUDENTLAB""]
+MONGO_URI = st.secrets["MONGO_URI "]
 client = MongoClient(MONGO_URI)
 db = client['college_db']
 students = db['students']
